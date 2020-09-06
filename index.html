@@ -35,18 +35,15 @@
     <meta name="theme-color" content="#ffffff" />
 
     <title>Anders Klenke</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss/dist/tailwind.min.css"
-      rel="stylesheet"
-    />
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
   </head>
   <body class="font-serif font-antialiased">
     <div
-      class="h-screen w-full flex flex-col items-center justify-center bg-green-lighter"
+      class="h-screen w-full flex flex-col items-center justify-center bg-green-900"
     >
       <div class="h-screen w-full absolute flex items-center justify-center">
         <div
-          class="bg-white rounded shadow p-8 m-4 max-w-s max-h-full text-center overflow-y-scroll"
+          class="bg-white sm:rounded shadow p-8 m-4 max-w-2xl max-h-full text-center overflow-y-scroll"
         >
           <div class="mb-8">
             <img
@@ -55,18 +52,19 @@
               class="rounded-full w-32"
             />
           </div>
-          <div class="mb-8"><h1>Hello there!</h1></div>
+          <div class="mb-8 font-black text-3xl text-green-900"><h1>Hello there!</h1></div>
           <div>
             <p class="text-xl">
               I'm Anders Klenke. I live in Copenhagen where I work as a software
               engineer for
               <a
-                href="https://karnovgroup.com"
+                href="https://tonsser.com"
                 target="_blank"
-                class="text-black"
-                >Karnov</a
-              >.
+                class="text-black underline"
+                >Tonsser</a
+              > ⚽️.
             </p>
+            <p class="text-xl py-4">As a side project I created <a href="https://gotaste.dk" target="_blank" class="text-black underline">GoTaste.dk</a> that makes it easy to find wine bars and events in Denmark 🍷</p>
             <p class="py-4 text-xl">–</p>
             <p class="text-xl">
               You can get in touch with me on afklenke@gmail.com.
